@@ -5,10 +5,6 @@ var express = require('express'),
     router  = express.Router(),
     port    = process.env.PORT || 3000;
 
-// app.get('/sample', function (req, res, next) {
-//   res.send('This is a sample!');
-// });
-
 // Use the body-parser as a middleware for all the routes and parse it as json.
 app.use(bp.json());
 app.use(bp.urlencoded({extended : false}));

@@ -1,6 +1,9 @@
 {
   "name": "sample-express",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "body-parser": "^1.15.1",
     "dotenv": "^2.0.0",
