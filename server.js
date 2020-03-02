@@ -1,4 +1,5 @@
-require('dotenv').config();
+require('dotenv').config({ silent : true });
+
 var express = require('express'),
     bp      = require('body-parser'),
     app     = express(),
